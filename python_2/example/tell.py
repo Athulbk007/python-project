@@ -1,0 +1,5 @@
+f=open('text.txt','r')
+f.readline()
+pos=f.tell()
+f.close()
+print('position is ',pos)

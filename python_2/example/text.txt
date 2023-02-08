@@ -1,0 +1,3 @@
+python is oop
+haii
+good morning
