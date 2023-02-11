@@ -1,18 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Register Here!</h1>
+    <!-- http methods GET,POST,PATCH,DELETE  -->
     <form action="" method="" enctype="">
         <div>
-            <label for="">FirstName</label>
-            <input type="text" name="" id="">
+            <label for="id_firstname">FirstName</label>
+            <input type="text" placeholder="enter firstname" id="id_firstname" class="">
         </div>
+        <div>
+            <label for="id_lastname">lastname</label>
+            <input type="text" placeholder="enter last name" id="id_lastname" class="">
+        </div>
+        <div>
+            <label for="id_email">Email</label>
+            <input type="text" placeholder="enter email" id="id_email" class="">
+        </div>
+        <div>
+            <label for="id_password">password</label>
+            <input type="password" id="id_password" class="">
+        </div>
+        <div>
+            <label for="id_phone">phonenumber</label>
+            <input type="text" placeholder="enter number" id="id_phone">
+        </div>
+        <div>
+            <label for="">gender</label>
+            <label for="id_male">male</label>
+            <input type="radio" id="id_male" name="gender">
+            <label for="id_female">female</label>
+            <input type="radio" id="id_female" name="gender">
+            <label for="id_other">other</label>
+            <input type="radio" id="id_other" name="gender">
+        </div>
+        <div>
+            <label for="">Select language</label>
+            <select name="" id="">
+                <option value="python"></option>
+                <option value="java"></option>
+                <option value="php"></option>
+            </select>
+        </div>
+
+        <div>
+            <label for="id_zipcode">ZipCode</label>
+            <input type="text" placeholder="enter zip code" id="id_zipcode">
+        </div>
+        <div>
+            <label for="">About</label>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="">student image</label>
+            <input type="file">
+        </div>
+
+        <input type="submit" value="Register">
+
+
     </form>
 </body>
+
 </html>
